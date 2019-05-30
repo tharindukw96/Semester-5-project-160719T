@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Sentdex Analysis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="/static/images/dark/favicon.ico">
+
+    <script
+        src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js?hcode=be5162d915534272a57d0bb781d27f2b"></script>
+    <script
+        src="https://cdn.anychart.com/releases/v8/js/anychart-ui.min.js?hcode=be5162d915534272a57d0bb781d27f2b"></script>
+    <script
+        src="https://cdn.anychart.com/releases/v8/js/anychart-exports.min.js?hcode=be5162d915534272a57d0bb781d27f2b"></script>
+    <link href="https://cdn.anychart.com/releases/v8/css/anychart-ui.min.css?hcode=be5162d915534272a57d0bb781d27f2b"
+        type="text/css" rel="stylesheet">
+    <link
+        href="https://cdn.anychart.com/releases/v8/fonts/css/anychart-font.min.css?hcode=be5162d915534272a57d0bb781d27f2b"
+        type="text/css" rel="stylesheet">
+    <style type="text/css">
+        html,
+        body,
+        #container {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<header>
+    <div class="navbar-header" style='float:left'>
+        <a class="navbar-brand" rel="home" href="/" title="Sentdex Analysis">
+            <img style="max-height:160px; max-width:100%; margin-top: -5px;" src="./image/logo.png">
+        </a>
+    </div>
+
+    <div class="container" style='margin-left:60%'>
+        <ul class="nav navbar-nav navbar-right">
+            <ul class="nav nav-pills">
+                <a href="/"><button type="button" class="btn btn-dark"
+                        style=" margin-top: 38px; margin-bottom: 5px; height:35px; margin-right: 5px; margin-left: 15px">
+                        <span class="glyphicon glyphicon-signal"></span> Home
+                    </button></a>
+                <a href="../add"><button type="button" class="btn btn-dark"
+                        style=" margin-top: 38px; margin-bottom: 5px; height:35px;">
+                        <span class="glyphicon glyphicon-king"></span> Add keyword
+                    </button></a>
+                <a href="../about"><button type="button" class="btn btn-dark"
+                        style=" margin-top: 38px; margin-bottom: 5px; height:35px; margin-left: 5px; margin-right: 5px">
+                        <span class="glyphicon glyphicon-globe"></span> About
+                    </button></a>
+                <a href="../manual"><button type="button" class="btn btn-dark"
+                    style=" margin-top: 38px; margin-bottom: 5px; height:35px; margin-left: 5px; margin-right: 5px">
+                    <span class="glyphicon glyphicon-globe"></span> Help
+                </button></a>
+            </ul>
+        </ul>
+    </div>
+    <br><br>
+</header>
+<br>
+
+<body class='body'>
+    <div class="container">
+        
+
+        <b>The idea of SentViz is to visualize the emotional data from twitter.</b>
+        <div class='row'>
+            <div class='col-md-5'>
+                <br><br>
+                <img src='../image/WordCloud1.png' width="450px">
+            </div>
+            <div class='col-md-7' style='text-align:justify;font-size:15px;'>
+                <p>
+                    <br><br>
+Sentviz is a standalone web application, and it is a solution for Twitter 
+emotion visualization. The main requirement of the system automates the 
+twitter emotion analyze and data visualization process. This application 
+can be used for many domains such as business marketing. This application 
+has not separate user such as admin and regular users.
+                </p>
+
+                <pre>
+SentViz is primarily written in the Python programming language, from the website to 
+the emotion analysis algorithm.
+
+The geographic sentiment analysis globe makes use of Python's <b>NLTK</b> (Natural Language 
+Toolkit) module, primarily for the superbly useful Named Entity Recognition.
+
+This website uses the Python framework, <b>Flask</b>.
+
+HTML/CSS design is <b>Bootstrap</b>.
+
+The graphs are generated with <b>Highcharts</b> and <b>AnyChart</b>.
+
+For more information on how SentViz, see: SentViz  <a href="../manual">User Manual</a>.
+                </pre>
+            </div>
+        </div>
+   
+
+    </div>
+</body>
